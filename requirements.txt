@@ -1,0 +1,44 @@
+# Основные зависимости RAG
+llama-index>=0.10.0
+langchain>=0.1.0
+chromadb>=0.4.0
+sentence-transformers>=2.2.0
+
+# Embedding-модели (выберите одну основную)
+sentence-transformers[all]  # или конкретные модели:
+
+# Для английского (максимальное качество)
+# sentence-transformers @ https://github.com/UKPLab/sentence-transformers/archive/refs/heads/master.zip
+
+# Мультиязычная модель
+# sentence-transformers @ https://github.com/UKPLab/sentence-transformers/archive/refs/heads/master.zip
+
+# Веб-интерфейс и сервер
+gradio>=4.0.0
+fastapi>=0.100.0
+uvicorn>=0.20.0
+
+# Работа с документами
+pypdf>=3.0.0
+python-docx>=0.8.0
+unstructured>=0.10.0
+markdown>=3.0
+
+# Работа с текстом и данными
+numpy>=1.24.0
+pandas>=2.0.0
+scikit-learn>=1.2.0
+
+# Утилиты и безопасность
+python-dotenv>=1.0.0
+tqdm>=4.65.0
+loguru>=0.7.0
+
+# API-интеграции (опционально)
+openai>=1.0.0
+requests>=2.28.0
+deepseek>=1.0.0
+
+# Дополнительные форматы файлов
+pdf2image>=1.16.0
+Pillow>=10.0.0
