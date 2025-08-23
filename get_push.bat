@@ -1,6 +1,6 @@
 @echo off
 chcp 65001 > nul
-cd /d "D:\fanuc_rag"
+cd "C:\Users\vorob\fanuc-rag"
 echo Отправка изменений на GitHub...
 echo.
 
