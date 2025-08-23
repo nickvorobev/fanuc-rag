@@ -1,7 +1,7 @@
 import gradio as gr
 #заглушка. Возвращает запрос.
 def fake_rag(query):
-	return f" you ask:'{query}'. Хороший вопрос, но RAG сервер еще нет."
+	return f" you ask:'{query}'. Хороший вопрос, но RAG сервер no."
 # Веб-интерфейс
 demo = gr.Interface(
 	fn=fake_rag,
