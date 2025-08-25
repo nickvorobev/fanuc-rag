@@ -28,7 +28,7 @@ def send_telegram_message(message):
         return False
 
 def fake_rag(query):
-    return f"Вы спросили: '{query}'. Хороший вопрос! RAG сервер не работает корректно. ✅"
+    return f"Вы спросили: '{query}'. Хороший вопрос! RAG сервер не очень работает корректно. ✅"
 
 # Глобальная переменная для хранения демо-интерфейса
 demo_instance = None
